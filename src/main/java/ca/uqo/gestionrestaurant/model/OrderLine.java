@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gestionrestaurant.model;
+package ca.uqo.gestionrestaurant.model;
 
 /**
  *
- * @author maxim
+ * @author Maxime 'biximilien' Gauthier
  */
 public class OrderLine {
 
@@ -18,7 +18,7 @@ public class OrderLine {
         this.id = id;
         this.menuItemId = menuItemId;
     }
-    
+
     private int id;
     private int menuItemId;
 

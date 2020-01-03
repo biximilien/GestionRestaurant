@@ -8,7 +8,7 @@
  *
  * Created on 2012-10-25, 17:30:59
  */
-package gestionrestaurant;
+package ca.uqo.gestionrestaurant;
 
 /**
  *

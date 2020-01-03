@@ -3,29 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gestionrestaurant.model;
+package ca.uqo.gestionrestaurant.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  *
- * @author maxim
+ * @author Maxime 'biximilien' Gauthier
  */
-public class Order {
+public class Menu {
 
-    public Order() {
-    }
-    
     private int id;
 
-    public Order(int id) {
+    public Menu(int id) {
         this.id = id;
     }
-    
-    public List<OrderLine> getOrderLines() {
+
+    public Menu() {
+    }
+
+    public List<MenuItem> getMenuItems() {
         //TODO
-        return new ArrayList<OrderLine>();
+        return new ArrayList<MenuItem>();
     }
 
     /**
